@@ -1,0 +1,1241 @@
+@font-face {
+    font-family: "open-san";
+    src: url(../font/openSan.ttf);
+}
+
+body {
+    margin: 0px;
+    font-family: "open-san";
+}
+
+.clear {
+    clear: both;
+}
+
+/* nav style start here */
+nav {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #878789;
+}
+
+.logoContainer {
+    display: inline-block;
+    width: 16%;
+    margin: 0px;
+}
+
+img.logo {
+    width: 75px;
+    height: 55px;
+    margin: 0px auto;
+    display: block;
+}
+
+.searchContainer {
+    display: inline-block;
+    width: 68%;
+}
+
+.searchRelative {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+input#mainSearch {
+    padding: 13px 10px;
+    font-family: "open-san";
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid #8c8c8c;
+    width: 100%;
+}
+
+img.searchIcon {
+    position: absolute;
+    top: 13px;
+    right: -3px;
+    width: 19px;
+}
+
+button.searchIcon {
+    position: absolute;
+    top: 11px;
+    right: -18px;
+    width: 19px;
+    background-color: #ffffff00;
+    width: 41px;
+    border: none;
+}
+
+.profileInfoContainer {
+    width: 17%;
+    display: inline-block;
+    float: right;
+    border-left: 1px solid #bcbcbc;
+    margin-left: 10px;
+}
+
+img.navPUser {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.ticketSP {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+p.navUName {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 19px;
+}
+
+img.logout {
+    width: 13px;
+    margin-left: 5px;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+/* nav style end here */
+
+/* sidebar style start here */
+
+.sidebar {
+    width: 16.5%;
+    background-color: #e6e6e6;
+    height: 90vh;
+    display: inline-block;
+    float: left;
+}
+
+.userInfo {
+    padding: 12px 10px;
+    border-bottom: 1px solid #878789;
+}
+
+.imgContainer {
+    display: inline-block;
+    float: left;
+    margin-right: 11px;
+}
+
+img.userIMG {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+}
+
+.userDetail {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+p.userName {
+    margin: 0px;
+    font-size: 13px;
+}
+
+p.userRole {
+    margin: 0px;
+    font-size: 13px;
+    color: #777474;
+    font-weight: 600;
+}
+
+.menuItem {
+    height: 40px;
+
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+a.menuILink {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-top: 11px;
+    display: inline-block;
+}
+
+.menuIIcon {
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.menuIconCont {
+    float: right;
+}
+
+.active {
+    background-color: #c2c2c2;
+}
+
+.active .menuILink {
+    color: #3e9ddc;
+}
+
+.active .menuIIcon {
+    color: #3e9ddc;
+}
+
+/* sidebar style end here */
+
+/* home page style start here  */
+.content {
+    background: url(../images/backgroundLogo.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+}
+
+.contentContainer {
+    display: inline-block;
+    width: 83%;
+    text-align: center;
+}
+
+p.mainText {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.infoPanel {
+    width: 38%;
+    height: 535px;
+    background-color: #e6e6e6;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 40px 65px 55px;
+}
+
+
+
+.hCard {
+    display: inline-block;
+    width: 175px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 6px;
+    border: 0.2px solid #707070;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+img.cardImg {
+    width: 140px;
+    height: 125px;
+}
+
+p.cardTxt {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+/* home page style end here  */
+
+/* user profile style start here */
+img.profileImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+}
+
+p.pUserName {
+    font-weight: 600;
+    font-size: 19px;
+    height: 8px;
+}
+
+p.pUserRole {
+    font-weight: 600;
+    color: #777474;
+}
+
+p.pFullNameTxt {
+    font-weight: 600;
+    color: #777474;
+    display: inline-block;
+    width: 22%;
+    font-size: 14px;
+    text-align: left;
+}
+
+p.pFullName {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 15px;
+    width: 58%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.pUserInfo {
+    text-align: center;
+}
+
+.profileItem {
+    width: 73%;
+    display: inline-block;
+}
+
+a.editProf,
+span.editProf,
+button.saveEPBtn,
+a.cancelEPBtn,
+button.postAnnoun,
+a.showTicketBTN {
+    background-color: #072b73;
+    color: #fff;
+    border-radius: 20px;
+    width: 140px;
+    display: inline-block;
+    padding: 6px 0px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+form.formLogin {
+    text-align: left;
+    margin-top: -25px;
+}
+
+p.mailTitle {
+    color: #707070;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 10px;
+}
+
+input#mail:focus-visible,
+input#password:focus-visible {
+    border: none;
+    outline: none;
+}
+
+input#mail,
+input#password {
+    width: 93%;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 0px;
+    font-family: "open-san";
+}
+
+.announContainer {
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+p.annouDate {
+    text-align: right;
+    font-size: 13px;
+}
+
+img.addressLoader {
+    width: 25px;
+    margin-top: 5px;
+}
+
+#TicketType {
+    width: 96.3%;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 0px;
+    font-family: "open-san";
+
+}
+
+label.changePicture {
+    font-size: 10px;
+    color: blue;
+    display: block;
+    cursor: pointer;
+}
+
+label.chooseMedia {
+    font-size: 10px;
+    display: block;
+
+    cursor: pointer;
+}
+
+.editPanel {
+    padding: 5px 65px 30px;
+    height: 450px;
+}
+
+button.saveSTBtn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    width: 270px;
+    display: inline-block;
+    padding: 12px 0px;
+    margin: 40px auto;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+button.saveEPBtn {
+    border: 0px;
+}
+
+a.cancelEPBtn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #072b73;
+    margin-left: 20px;
+}
+
+.formBtn {
+    text-align: center;
+}
+
+input#image {
+    visibility: hidden;
+    height: 0px;
+}
+
+/* user profile style end here */
+
+/* users style start here */
+select#users {
+    padding: 12px 13px;
+    font-family: "open-san";
+    font-weight: 600;
+    margin-right: -5px;
+    border-radius: 4px;
+}
+
+.userSearchRelative {
+    float: inherit;
+}
+
+.userSearchContainer {
+    margin: 15px 0px;
+}
+
+.userPanel {
+    width: 80%;
+    height: 540px;
+    background-color: #e6e6e6;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 11px 20px 19px;
+    overflow-x: scroll;
+}
+
+.userCard {
+    display: inline-block;
+    width: 45%;
+    height: 217px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 13px 15px;
+    color: #000;
+}
+
+.userIL {
+    display: inline-block;
+    width: 34%;
+    border-right: 1px solid #000;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 9px;
+}
+
+img.userIMGInfo {
+    width: 70px;
+    border-radius: 35px;
+    margin-top: 29px;
+}
+
+p.userIName {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+p.userIRole {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 4px;
+    color: #777474;
+}
+
+.userIR {
+    width: 55%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 18px;
+}
+
+p.UNTXT,
+p.UMTXT,
+p.UPTXT,
+p.UATXT {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 6px 0px;
+    color: #777474;
+}
+
+p.UName,
+p.UMail,
+p.UPhone,
+p.UAddress {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* users style end here */
+
+/* report style start here */
+span.fromTXT,
+span.toTXT {
+    font-family: "open-san";
+    font-weight: 600;
+}
+
+span.toTXT {
+    margin-left: 10px;
+}
+
+input#reportFrom,
+input#reportTo {
+    font-family: "open-san";
+    font-size: 15px;
+    border-radius: 4px;
+    border: 0px;
+    padding: 5px 7px;
+}
+
+.reportPanel {
+    width: 50%;
+    height: 503px;
+    padding: 15px 65px 15px;
+}
+
+p.reportMainTXT {
+    margin: 5px 0px;
+}
+
+.ReportBTN {
+    border-radius: 4px;
+    border: none;
+    background-color: #072b73;
+    color: #fff;
+    font-family: "open-san";
+    font-size: 14px;
+    padding: 3px 10px 5px 10px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.reportDetailContainer {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+p.mainTXT {
+    font-size: 17px;
+    font-weight: 600;
+    color: #777474;
+    margin: 0px 0px 10px 0px;
+}
+
+p.detailTXT {
+    margin: 0px 0px 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+img.starReport {
+    width: 17px;
+}
+
+/* report style end here */
+
+/* register style start here */
+img.staffRIMG {
+    width: 65px;
+    border-radius: 60px;
+}
+
+.mainStaffTXT {
+    margin: 7px 0px;
+}
+
+.staffPanel {
+    width: 50%;
+    height: 515px;
+    padding: 15px 65px 15px;
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+form.formRegisterStaff {
+    text-align: left;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: -5px;
+}
+
+button.btn-login-submit {
+    background-color: #072c73;
+    font-size: 18px;
+    font-family: "open-san";
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 26px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* register style end here */
+.usersContainerSupport {
+    width: fit-content;
+    margin: 150px auto;
+    display: none;
+}
+
+p.emptySupportTXT {
+    font-size: 35px;
+    color: #c8c8c8;
+    font-weight: 600;
+    letter-spacing: 1.5;
+}
+
+.usersSupportsContainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.userList {
+    height: 85px;
+    cursor: pointer;
+}
+
+.supportUserDetail {
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+img.userSupportImg {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    float: left;
+}
+
+p.userSupportName {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.leftSideListSupport {
+    float: right;
+    margin-top: 15px;
+}
+
+label.redDotSupport {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+img.leftArrowSupport {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+input#userSupportSearch {
+    border: 1px solid #0C0F1A;
+    border-radius: 5px;
+    width: 175px;
+    padding: 3px 9px;
+}
+
+input#userSupportSearchBTN {
+    background-color: #0C0F1A;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 2px 13px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+input#userSupportSearch:focus-visible,
+textarea#chatTextArea:focus-visible {
+    outline: none !important;
+    border: 2px solid #0C0F1A;
+}
+
+.backLink {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.backLinkIMG {
+    width: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.chatContainer {
+    border-top: 1px solid #0C0F1A;
+    margin-top: 12px;
+}
+
+.messagesContainer {
+    background-color: #fff;
+    height: 420px;
+    padding: 21px;
+    margin: 15px 0px;
+    border-radius: 9px;
+    overflow: scroll;
+}
+
+.messagesUContainer {
+    background-color: #fff;
+    height: 435px;
+    padding: 21px;
+    margin: 15px 0px;
+    border-radius: 9px;
+    overflow: scroll;
+}
+
+.messageDirectionLeft {
+    float: left;
+    width: 100%;
+    direction: ltr;
+}
+
+.messageDirectionRight {
+    float: right;
+    width: 100%;
+    direction: rtl;
+}
+
+.messageContainer {
+    background-color: #2a4297;
+    border-radius: 10px;
+    max-width: 50%;
+    padding: 20px;
+    margin-bottom: 17px;
+    width: fit-content;
+    color: white;
+
+}
+
+p.messageTXT {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+
+textarea#chatTextArea {
+    width: 89%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #0C0F1A;
+    border-radius: 5px;
+
+    padding: 3px 9px;
+}
+
+input#sendMessageBTN {
+    background-color: #0C0F1A;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 2px 13px;
+    border-radius: 5px;
+    margin-right: 15px;
+    float: left;
+    height: 70px;
+    width: 7%;
+}
+
+.blackScreen {
+    background-color: #00000038;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.panel {
+    background-color: #fff;
+    width: 220px;
+    height: 230px;
+    margin: 150px auto;
+    border-radius: 9px;
+    text-align: center;
+}
+
+img.loadingIMG {
+    width: 130px;
+    margin: 20px 0px;
+    height: 130px;
+}
+
+p.loadingTXT {
+    font-size: 20px;
+    margin-bottom: 11px;
+    font-weight: 600;
+    color: #0E1B29;
+}
+
+/* announcement style start here */
+textarea#announcement {
+    width: 100%;
+    height: 266px;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    font-family: "open-san";
+}
+
+button.postAnnoun {
+    border: none;
+    width: 190px;
+    padding: 11px 0px;
+    margin-top: 30px;
+}
+
+p.descriptionTXT {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #777474;
+}
+
+input#annTitleTXT {
+    width: 100%;
+
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-family: "open-san";
+    margin: 0px;
+}
+
+p.annTitle {
+    text-align: left;
+}
+
+
+
+/* announcement style end here */
+/* ticket style start here */
+.ticketCard {
+    display: inline-block;
+    width: 90%;
+    height: 292px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 13px 15px;
+    color: #000;
+    position: relative;
+}
+
+.ticketIL {
+    display: inline-block;
+    width: 16%;
+    border-right: 2px solid #77747478;
+    height: 272px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 9px;
+}
+
+.ticketIR {
+    width: 77%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 18px;
+}
+
+a.showTicketBTN {
+    float: right;
+}
+
+.ticketsPanel {
+    height: 555px;
+}
+
+.ticketPanel {
+    height: 555px;
+    margin-top: 20px;
+}
+
+.supportPanel {
+    height: 625px;
+
+    width: 88%;
+}
+
+.userTicketContainer {
+    height: 20%;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #cacaca;
+}
+
+.userTicket {
+    width: fit-content;
+    display: inline-block;
+}
+
+img.userTicketIMG {
+    height: 70px;
+    border-radius: 45px;
+    margin-top: 9px;
+    float: left;
+}
+
+.userTicketInfo {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+p.userTicketName {
+    margin: 0px;
+}
+
+a.viewProfile {
+    margin-top: 10px;
+}
+
+.ticketLS {
+    width: 45%;
+    display: inline-block;
+    border-right: 1px solid #cacaca;
+    text-align: left;
+    float: left;
+}
+
+.ticketRS {
+    width: 45%;
+    display: inline-block;
+}
+
+a.updateTicketBTN,
+span.updateTicketBTN {
+    margin-top: 10px;
+    width: 190px;
+    text-align: center;
+}
+
+.pictureTicketContainer {
+    height: 220px;
+    overflow-x: auto;
+    text-align: left;
+}
+
+img.pictureTicket {
+    border: 1px solid #000;
+    width: 85px;
+    height: 85px;
+    margin-left: 10px;
+}
+
+select#tickets {
+    padding: 5px 0px;
+    font-family: "open-san";
+    font-weight: 600;
+    margin-right: -5px;
+    border-radius: 4px;
+}
+
+input.ticketIDInput {
+    visibility: hidden;
+    width: 0px;
+    padding: 0px;
+    margin: -4px;
+}
+
+p.emptyContainer {
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+}
+
+select#gender {
+    font-size: 15px;
+    font-family: "open-san";
+    padding: 2px 3px;
+}
+
+.imgShowContainer {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b0;
+    z-index: 9;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+img.imgPanel {
+    width: 50%;
+}
+
+p.closePanel {
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin: 15px 30px;
+    cursor: pointer;
+}
+
+p.ticketMessage {
+    font-weight: 600;
+    padding: 0px 11px 0px 0px;
+}
+
+form.submitTicket {
+    width: 75%;
+    text-align: left;
+    margin: 40px auto 0px;
+}
+
+.mediaContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.photoContainer {
+    display: inline-block;
+    margin-right: 73px;
+}
+
+p.photoTXT {
+    font-weight: 600;
+}
+
+/* ticket style end here */
+
+/* response style start here */
+@media screen and (min-width: 1300px) {
+    .reportPanel {
+        width: 80%;
+        height: 503px;
+        padding: 15px 10px 15px;
+    }
+
+    .infoPanel {
+        overflow-x: auto;
+        height: 565px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .userCard {
+        width: 100%;
+    }
+
+    .profileInfoContainer {
+        width: 22%;
+    }
+
+    .sidebar {
+        width: 22.5%;
+    }
+
+    a.menuILink {
+        font-size: 11px;
+    }
+
+    .homePanel {
+        width: 72%;
+    }
+
+    .contentContainer {
+        width: 76%;
+    }
+
+    .infoPanel {
+        width: 63%;
+        padding: 25px 5px 3px;
+        overflow-x: auto;
+        height: 470px;
+    }
+
+    span.toTXT {
+        margin-left: 23px;
+    }
+
+    input#reportFrom,
+    input#reportTo {
+        width: 74%;
+        margin: 10px 25px 14px 16px;
+    }
+
+    .ticketIR {
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .profileInfoContainer {
+        width: 14%;
+        height: 57px;
+    }
+
+    p.navUName {
+        display: none;
+    }
+
+    a.menuILink {
+        display: none;
+    }
+
+    .menuIconCont {
+        float: none;
+        margin: 0px auto;
+        width: 20px;
+    }
+
+    .menuIcon {
+        cursor: pointer;
+    }
+
+    /* .homePanel {
+        width: 53%;
+        overflow-x: auto;
+        height: 370px;
+    } */
+    .imgContainer {
+        display: inline-block;
+        float: none;
+        margin: 5px;
+    }
+
+    .userInfo {
+        text-align: center;
+    }
+
+    .sidebar {
+        width: 15%;
+    }
+
+    p.pFullNameTxt {
+        width: 26%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    p.pFullName {
+        font-size: 14px;
+        width: 58%;
+        margin-left: 2px;
+        text-align: center;
+    }
+
+    .userIL {
+        display: inline-block;
+        width: 23%;
+    }
+
+    .userIR {
+        width: 61%;
+
+        padding-left: 5px;
+    }
+
+    img.userIMGInfo {
+        width: 40px;
+    }
+
+    .annPanel {
+        padding: 25px 50px 3px;
+    }
+}
+
+/* response style end here */
+
+.annPanel {
+    height: 615px;
+    width: 80%;
+    background-color: #e6e6e6;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 11px 65px 11px;
+}
+
+a.viewTicketBTN {
+    position: absolute;
+    border: 1px solid #4b7399;
+    background-color: #4b7399;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    width: 165px;
+    padding: 13px 0px;
+    right: 10px;
+    top: 25px;
+}
+
+.homePanel {
+    width: 81%;
+    height: 465px;
+}

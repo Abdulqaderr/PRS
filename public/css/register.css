@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "open-san";
+    src: url(../font/openSan.ttf);
+}
+
+body {
+    background: url(../images/backgroundLogo.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "open-san";
+}
+
+.loginContainer {
+    width: 430px;
+    height: 300px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+p.logoTitle {
+    color: #14279b;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+}
+
+p.logoSTitle {
+    color: #3d56b2;
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 0px;
+}
+
+img.logoLogin {
+    width: 100px;
+    margin: 0px auto;
+    display: inherit;
+}
+
+p.logoTXt {
+    font-weight: 700;
+    font-size: 21px;
+
+    width: 52px;
+    margin: 0px auto;
+    letter-spacing: 1px;
+}
+
+p.forgetTXt {
+    width: 185px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+a.newAccountTXT {
+    width: 145px;
+    font-size: 13px;
+    display: block;
+    margin: 20px auto 5px;
+}
+
+.logoForm {
+    border-radius: 5px;
+    border: 1px solid #8e989a;
+    background-color: #e6e6e6;
+    padding: 10px 30px;
+}
+
+form.formLogin {
+    text-align: left;
+}
+
+p.mailTitle {
+    color: #707070;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 10px;
+}
+
+input#mail:focus-visible,
+input#password:focus-visible {
+    border: none;
+    outline: none;
+}
+
+input#mail,
+select#mail,
+input#password {
+    width: 93%;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 0px;
+    font-family: "open-san";
+}
+
+select#mail {
+    width: 98%;
+}
+
+a.forgetTXT {
+    width: 87px;
+    font-size: 11px;
+    display: inherit;
+    margin: 9px auto;
+}
+
+button.btn-login-submit {
+    background-color: #000;
+    font-size: 18px;
+    font-family: "open-san";
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 26px 0px;
+    text-transform: uppercase;
+}
+
+button.sendMail {
+    text-transform: none;
+}
